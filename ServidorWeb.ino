@@ -5,7 +5,7 @@ byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };//Ponemos la dirección MAC 
 IPAddress ip(192,168,1,50); //Asingamos la IP al Arduino
 EthernetServer server(80); //Creamos un servidor Web con el puerto 80 que es el puerto HTTP por defecto
 
-//Pin para el SENSOR MAGNÉTICO DE PUERTA 1
+//Pin para el SENSOR MAGNÉTICO DE PUERTA 1 jhfjks
 const int pinSensorPuerta1 = 2;
 
 //Pin para el SENSOR MÁGNETICO DE PUERTA 2
